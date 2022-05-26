@@ -488,14 +488,8 @@ ${menuVC}
     case 'grupos': 
     case 'groups': 
     case 'dylux': 
-    gps = `
-≡  *DyLux  ┃ ᴮᴼᵀ*  GRUPOS
+    gps = `...
 
-▢ ${msg.gp} 1
-https://instabio.cc/fg98ff
-
-▢ *YouTube*
-• https://www.youtube.com/fg98f
 `
 m.reply(gps)
 break 
@@ -539,22 +533,8 @@ case 'creator':
 case 'creador': 
 case 'developer':
    //Fg.sendContact(from, '5493885839638', 'FG98', mek) 
-   m.reply(`
-*≡ OWNER*
+   m.reply(`...
 
-▢ Instagram :
-  • https://instagram.com/fg98._
-▢ WhatsApp : 
-  • wa.me/
-▢ Telegram : 
-  • t.me/fgsupp_bot 
-  • t.me/fg98ff (canal)
-  • t.me/fgawgp (grupo)
-▢ Facebook : 
-  • https://facebook.com/fg98ff/
-  • https://facebook.com/fg98A/
-▢ YouTube : 
-  • https://youtube.com/fg98f
 `)
     break
     
@@ -586,7 +566,6 @@ case 'developer':
 ▢ Versi Wa : ${Fg.user.phone.wa_version}
 
 *≡ OWNER*
-▢ Instagram : https://www.instagram.com/fg98._
 ▢ WhatsApp : wa.me/
 
 *≡ SCRIPT*
@@ -2220,7 +2199,7 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ⎔ *Premium* : ${prem}
 
 ▢ ${msg.cretb}
-• https://youtu.be/F4lGWb1WXgM 
+
 
 ${readMore}
 ${menu(prefix)} 
