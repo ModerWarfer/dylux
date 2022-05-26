@@ -470,7 +470,7 @@ ${menu(prefix)}
     Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`,  '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
     break
     
-   /*case 'menuvc': 
+   case 'menuvc': 
  case 'helpvc':
     capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
     
@@ -483,7 +483,7 @@ ${readMore}
 ${menuVC} 
 `
     Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
-    break*/
+    break
     
     case 'grupos': 
     case 'groups': 
@@ -1653,7 +1653,7 @@ Fg.groupSettingChange(from, GroupSettingChange.messageSend, true)
     }
     break 
     
-    /*case 'voicecommand':
+    case 'voicecommand':
     case 'voicecmd':
     if(!isPremium && !isOwner) return m.reply(msg.premium)
    // if(isGroup) return m.reply(msg.private)
@@ -1669,7 +1669,7 @@ Fg.groupSettingChange(from, GroupSettingChange.messageSend, true)
     } else {
       m.reply(msg.OnorOff)
     }
-    break*/
+    break
     
 
   case 'q': 
