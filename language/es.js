@@ -72,7 +72,7 @@ exports.pptuser = `Tú`;
 exports.papel = `papel`;
 exports.tijera = `tijera`;
 exports.piedra = `piedra`;
-exports.foll = `Sígueme en Instagram \nhttps://www.instagram.com/fg98._`;
+exports.foll = `...`;
 exports.plays = `Ingresa el título de una canción`;
 exports.playm = `El archivo es demasiado grande, la reproducción de música se canceló, el tamaño máximo del archivo es de`;
 exports.listgp = `LISTA de Grupos`;
@@ -91,12 +91,8 @@ exports.pregt = 'Ella me ama?';
 exports.donate = `≡ *DONACION*
 Puedes apoyar al creador del bot donando :) 
 
-▢ *PayPal*
-• *Link :* https://paypal.me/fg98f
 ▢ *Mercado Pago Arg*
-• *Link :* https://mpago.la/1F3r6JH
-▢ *Tigo Money*
-• *N° :*  75140648`;
+• pedir al priv`;
 exports.cretb = 'Crea tu propio bot usando Termux';
 
 // -- Decir tiempo
