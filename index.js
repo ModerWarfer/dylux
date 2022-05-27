@@ -2030,7 +2030,7 @@ Fg.send2ButtonLoc(from, welm, capt, 'Sígueme en Instagram\nhttps://www.instagra
 case 'simi':
 case 'bot':
 		 if (args.length < 1) return m.reply(`${msg.hi} _*${pushname}*_ ${msg.simn} *${prefix + command}* ${msg.simmsg} ${prefix + command} ${msg.hi} bot`)
-		result = await fetchJson(`https://api.simsimi.net/v2/?text=${budy}&lc=${cekBahasa(who)}`, {method: 'get'})
+		result = await fetchJson(`https://api-sv2.simsimi.net/v2/?text=${value}&lc=${cekBahasa(who)}`, {method: 'get'})
         m.reply(result.success.replace('simsimi', 'DyLux').replace('Simsimi', 'DyLux').replace('sim simi', 'DyLux'))
                      break
                                    
@@ -2247,13 +2247,12 @@ ${menu(prefix)}
  * chatbot // configúrelo como desee, elija uno si da un error
 */
 
-
 if(!isCmd && isChatbot === true){
  // if(!mek.isBaileys) return
  // if(isGroup) return
  // if(!isPremium) return
   if(m.mtype == 'stickerMessage') return
-  result = await fetchJson(`https://api.simsimi.net/v2/?text=es&lc=${cekBahasa(who)}`, {method: 'get'})
+  result = await fetchJson(`https://api-sv2.simsimi.net/v2/?text=${budy}&lc=${cekBahasa(who)}`, {method: 'get'})
   m.reply(result.success.replace('simsimi', 'DyLux').replace('Simsimi', 'DyLux').replace('sim simi', 'DyLux'))
 }
 
@@ -2291,6 +2290,7 @@ if (m.mtype == 'viewOnceMessage' && isViewonce === true){
 		if (budy.includes(`Todo bien`)) {
                   reply(`Si amigo todo bien, vite`)
                   }
+
 /**
  * WhatsApp bot  baileys
  * 
