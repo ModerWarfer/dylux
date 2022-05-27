@@ -392,7 +392,7 @@ Fg.on('CB:action,,battery', json => {
 
 
 // auto respon
-/*Dbot = ['@'+Fg.user.jid.split('@')[0]]
+Dbot = ['@'+Fg.user.jid.split('@')[0]]
 for ( var L of Dbot){
   if(!mek.isBaileys && budy.match(L)){
    capt = 'Hola @'+sender.split('@')[0]+' Aquí estoy necesitas ayuda? '
@@ -402,7 +402,7 @@ for ( var L of Dbot){
           },
         });
   }
-}*/
+}
 
 if (budy) addUser(sender); 
 if (isGroup && budy) addGroup(from); 
