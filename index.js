@@ -2247,12 +2247,13 @@ ${menu(prefix)}
  * chatbot // configúrelo como desee, elija uno si da un error
 */
 
+
 if(!isCmd && isChatbot === true){
  // if(!mek.isBaileys) return
  // if(isGroup) return
  // if(!isPremium) return
   if(m.mtype == 'stickerMessage') return
-  result = await fetchJson(`https://api.simsimi.net/v2/?text=${budy}&lc=${cekBahasa(who)}`, {method: 'get'})
+  result = await fetchJson(`https://api.simsimi.net/v2/?text=es&lc=${cekBahasa(who)}`, {method: 'get'})
   m.reply(result.success.replace('simsimi', 'DyLux').replace('Simsimi', 'DyLux').replace('sim simi', 'DyLux'))
 }
 
@@ -2284,6 +2285,12 @@ if (m.mtype == 'viewOnceMessage' && isViewonce === true){
 }
 };
 
+
+  default:
+                
+		if (budy.includes(`Todo bien`)) {
+                  reply(`Si amigo todo bien, vite`)
+                  }
 /**
  * WhatsApp bot  baileys
  * 
