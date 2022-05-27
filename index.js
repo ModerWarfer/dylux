@@ -2285,12 +2285,6 @@ if (m.mtype == 'viewOnceMessage' && isViewonce === true){
 };
 
 
-  default:
-                
-		if (budy.includes(`Todo bien`)) {
-                  reply(`Si amigo todo bien, vite`)
-                  }
-
 /**
  * WhatsApp bot  baileys
  * 
