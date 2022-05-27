@@ -83,7 +83,6 @@ const {
   cekPremium,
   addPremium,
   delPremium,
-  addChatbot,
   delChatbot,
   cekChatbot,
   cekVoiceCommand,
@@ -1638,7 +1637,7 @@ Fg.groupSettingChange(from, GroupSettingChange.messageSend, true)
     
     //-- auto Simsimi 
     case 'chatbot': 
-    // if(!isGroup) return m.reply(msg.group)
+    if(!isGroup) return m.reply(msg.group)
     if(!value) return m.reply(msg.OnorOff)
     if (value.toLowerCase() === "on") {
       if(isChatbot === true ) return m.reply(msg.Thison(command.toUpperCase()))
