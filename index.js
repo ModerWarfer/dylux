@@ -83,6 +83,7 @@ const {
   cekPremium,
   addPremium,
   delPremium,
+  addChatbot,
   delChatbot,
   cekChatbot,
   cekVoiceCommand,
@@ -469,7 +470,7 @@ ${menu(prefix)}
     Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`,  '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
     break
     
-   case 'menuvc': 
+   /*case 'menuvc': 
  case 'helpvc':
     capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
     
@@ -482,13 +483,19 @@ ${readMore}
 ${menuVC} 
 `
     Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
-    break
+    break*/
     
     case 'grupos': 
     case 'groups': 
     case 'dylux': 
-    gps = `...
+    gps = `
+≡  *DyLux  ┃ ᴮᴼᵀ*  GRUPOS
 
+▢ ${msg.gp} 1
+https://instabio.cc/fg98ff
+
+▢ *YouTube*
+• https://www.youtube.com/fg98f
 `
 m.reply(gps)
 break 
@@ -532,8 +539,22 @@ case 'creator':
 case 'creador': 
 case 'developer':
    //Fg.sendContact(from, '5493885839638', 'FG98', mek) 
-   m.reply(`...
+   m.reply(`
+*≡ OWNER*
 
+▢ Instagram :
+  • https://instagram.com/fg98._
+▢ WhatsApp : 
+  • wa.me/
+▢ Telegram : 
+  • t.me/fgsupp_bot 
+  • t.me/fg98ff (canal)
+  • t.me/fgawgp (grupo)
+▢ Facebook : 
+  • https://facebook.com/fg98ff/
+  • https://facebook.com/fg98A/
+▢ YouTube : 
+  • https://youtube.com/fg98f
 `)
     break
     
@@ -565,6 +586,7 @@ case 'developer':
 ▢ Versi Wa : ${Fg.user.phone.wa_version}
 
 *≡ OWNER*
+▢ Instagram : https://www.instagram.com/fg98._
 ▢ WhatsApp : wa.me/
 
 *≡ SCRIPT*
@@ -1637,7 +1659,7 @@ Fg.groupSettingChange(from, GroupSettingChange.messageSend, true)
     
     //-- auto Simsimi 
     case 'chatbot': 
-    if(!isGroup) return m.reply(msg.group)
+    // if(!isGroup) return m.reply(msg.group)
     if(!value) return m.reply(msg.OnorOff)
     if (value.toLowerCase() === "on") {
       if(isChatbot === true ) return m.reply(msg.Thison(command.toUpperCase()))
@@ -1652,7 +1674,7 @@ Fg.groupSettingChange(from, GroupSettingChange.messageSend, true)
     }
     break 
     
-    case 'voicecommand':
+    /*case 'voicecommand':
     case 'voicecmd':
     if(!isPremium && !isOwner) return m.reply(msg.premium)
    // if(isGroup) return m.reply(msg.private)
@@ -1668,7 +1690,7 @@ Fg.groupSettingChange(from, GroupSettingChange.messageSend, true)
     } else {
       m.reply(msg.OnorOff)
     }
-    break
+    break*/
     
 
   case 'q': 
@@ -2198,7 +2220,7 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ⎔ *Premium* : ${prem}
 
 ▢ ${msg.cretb}
-
+• https://youtu.be/F4lGWb1WXgM 
 
 ${readMore}
 ${menu(prefix)} 
@@ -2283,7 +2305,6 @@ if (m.mtype == 'viewOnceMessage' && isViewonce === true){
   console.log(bgcolor('‣ Alerta :', 'red'), e);
 }
 };
-
 
 /**
  * WhatsApp bot  baileys
