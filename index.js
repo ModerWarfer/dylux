@@ -461,8 +461,6 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ⎔ *${msg.lvl}* : ${isLevel}
 ⎔ *Premium* : ${prem}
 
-▢ ${msg.cretb}
-• https://youtu.be/F4lGWb1WXgM 
 
 ${readMore}
 ${menu(prefix)} 
@@ -491,11 +489,6 @@ ${menuVC}
     gps = `
 ≡  *DyLux  ┃ ᴮᴼᵀ*  GRUPOS
 
-▢ ${msg.gp} 1
-https://instabio.cc/fg98ff
-
-▢ *YouTube*
-• https://www.youtube.com/fg98f
 `
 m.reply(gps)
 break 
@@ -542,19 +535,6 @@ case 'developer':
    m.reply(`
 *≡ OWNER*
 
-▢ Instagram :
-  • https://instagram.com/fg98._
-▢ WhatsApp : 
-  • wa.me/
-▢ Telegram : 
-  • t.me/fgsupp_bot 
-  • t.me/fg98ff (canal)
-  • t.me/fgawgp (grupo)
-▢ Facebook : 
-  • https://facebook.com/fg98ff/
-  • https://facebook.com/fg98A/
-▢ YouTube : 
-  • https://youtube.com/fg98f
 `)
     break
     
@@ -584,10 +564,6 @@ case 'developer':
 *≡ DISPOSITIVO*
 
 ▢ Versi Wa : ${Fg.user.phone.wa_version}
-
-*≡ OWNER*
-▢ Instagram : https://www.instagram.com/fg98._
-▢ WhatsApp : wa.me/
 
 *≡ SCRIPT*
 ▢ Git : ${package.homepage} 
@@ -2136,6 +2112,12 @@ break
           }
           });
           }
+  
+    
+		if (budy.includes(`hola`)) {
+                  reply(`hola bb`)
+                  };
+		
           
     if (budy.startsWith('>')){
       if (!isOwner && !isBot) return;
