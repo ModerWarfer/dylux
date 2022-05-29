@@ -2135,7 +2135,7 @@ _*Ojito escribe tal como esta*_
                  m.reply(`Si amigo todo bien, vite`)
                   }
 		
-		if (budy.includes(`.otak`)) {
+		if (budy.includes(`otak`)) {
                  m.reply(`*Palabras especificas para que el bot interactue con ustedes mis queridos otakus*
 Quien es tu sempai botsito
 Me gimes 7u7
@@ -2145,7 +2145,7 @@ La toca 7w7
 _*Ojito escribe tal como esta*_`)
                   }
 		
-		if (budy.includes(`.decir`)) {
+		if (budy.includes(`Quedecir`)) {
                  m.reply(`*Palabras especificas para que el bot interactue con ustedes*
 Pasen porno
 Hora del sexito
@@ -2225,27 +2225,27 @@ _*Ojito escribe tal y como esta en el mensaje*_
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }			
 	if (budy.startsWith(`VAMOOO`)) {
-        const none = fs.readFileSync('./mp3/vamo.mp3');
+        const none = fs.readFileSync('/mp3/vamo.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Hora del sexito`)) {
-        const none = fs.readFileSync('./mp3/maau1.mp3');
+        const none = fs.readFileSync('/mp3/maau1.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
         if (budy.startsWith(`Cuentate un chiste`)) {
-        const none = fs.readFileSync('./mp3/dylan2.mp3');
+        const none = fs.readFileSync('/mp3/dylan2.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Admin party`)) {
-        const none = fs.readFileSync('./mp3/fiesta.mp3');
+        const none = fs.readFileSync('/mp3/fiesta.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
         if (budy.startsWith(`Fiesta del admin`)) {
-        const none = fs.readFileSync('./mp3/admin.mp3');
+        const none = fs.readFileSync('/mp3/admin.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Viernes`)) {
-        const none = fs.readFileSync('./mp3/viernes.mp3');
+        const none = fs.readFileSync('/mp3/viernes.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`:v`)) {
