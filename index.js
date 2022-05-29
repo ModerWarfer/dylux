@@ -2219,29 +2219,30 @@ _*Ojito escribe tal y como esta en el mensaje*_
 		if (budy.includes(`Fua`)) {
                   m.reply(`el diegote pa`)
                   }
-	
+		
+		
 	if (budy.startsWith(`Pasen porno`)) {
         const none = fs.readFileSync('./mp3/maau2.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+		fg.sendMessage(from, vn, audio, {quoted: mek, ptt:true})
                   }			
 	if (budy.startsWith(`VAMOOO`)) {
-        const none = fs.readFileSync('/mp3/vamo.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const none = fs.readFileSync('./mp3/vamo.mp3');
+		fg.sendMessage(from, vn, audio, {quoted: mek, ptt:true})
                   }
 	if (budy.startsWith(`Hora del sexito`)) {
-        const none = fs.readFileSync('/mp3/maau1.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const none = fs.readFileSync('./mp3/maau1.mp3');
+		fg.sendMessage(from, vn, audio, {quoted: mek, ptt:true})
                   }
         if (budy.startsWith(`Cuentate un chiste`)) {
-        const none = fs.readFileSync('/mp3/dylan2.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+        const none = fs.readFileSync('./mp3/dylan2.mp3');
+		fg.sendMessage(from, vn, audio, {quoted: mek, ptt:true})
                   }
 	if (budy.startsWith(`Admin party`)) {
-        const none = fs.readFileSync('/mp3/fiesta.mp3');
+        const none = fs.readFileSync('./mp3/fiesta.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
         if (budy.startsWith(`Fiesta del admin`)) {
-        const none = fs.readFileSync('/mp3/admin.mp3');
+        const none = fs.readFileSync('./mp3/admin.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Viernes`)) {
