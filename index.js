@@ -1635,6 +1635,7 @@ Fg.groupSettingChange(from, GroupSettingChange.messageSend, true)
     
     //-- auto Simsimi 
     case 'chatbot': 
+	case 'chat': 
     // if(!isGroup) return m.reply(msg.group)
     if(!value) return m.reply(msg.OnorOff)
     if (value.toLowerCase() === "on") {
@@ -1649,6 +1650,10 @@ Fg.groupSettingChange(from, GroupSettingChange.messageSend, true)
       m.reply(msg.OnorOff)
     }
     break 
+	
+		
+     
+
     
     /*case 'voicecommand':
     case 'voicecmd':
@@ -2115,7 +2120,7 @@ break
   
     
 		if (budy.includes(`hola`)) {
-                  reply(`hola bb`)
+                m.reply(`hola bb`)
                   };
 		
           
@@ -2126,6 +2131,9 @@ break
         } catch(err) {
           e = String(err);
           m.reply("‣ "+e); }}} 
+	  
+    if (budy.includes('hey')) {
+	    reply('hola bb') };
 
     let isLink = 'https://chat.whatsapp.com/'
     if(budy.match(isLink) && isAntilink === true ) {
@@ -2201,8 +2209,6 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ⎔ *${msg.lvl}* : ${isLevel}
 ⎔ *Premium* : ${prem}
 
-▢ ${msg.cretb}
-• https://youtu.be/F4lGWb1WXgM 
 
 ${readMore}
 ${menu(prefix)} 
