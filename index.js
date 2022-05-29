@@ -2144,19 +2144,19 @@ break
                   }
 	
 	if (budy.startsWith(`Pasen porno`)) {
-        const none = fs.readFileSync('./mp3/maau2.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/maau2.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }			
 	if (budy.startsWith(`VAMOOO`)) {
-        const none = fs.readFileSync('./mp3/vamo.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/vamo.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Hora del sexito`)) {
-        const none = fs.readFileSync('./mp3/maau1.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/maau1.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
         if (budy.startsWith(`Cuentate un chiste`)) {
-        const none = fs.readFileSync('./mp3/dylan2.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/dylan2.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Admin party`)) {
@@ -2164,59 +2164,59 @@ break
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
         if (budy.startsWith(`Fiesta del admin`)) {
-        const none = fs.readFileSync('./mp3/admin.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/admin.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Viernes`)) {
-        const none = fs.readFileSync('./mp3/viernes.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/viernes.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`:v`)) {
-        const none = fs.readFileSync('./mp3/viejo1.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/viejo1.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`La toca 7w7`)) {
-        const none = fs.readFileSync('./anishan/anime5.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/anishan/anime5.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Quien es tu sempai botsito`)) {
-        const none = fs.readFileSync('./anishan/anime4.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/anishan/anime4.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Me gimes 7u7`)) {
-        const none = fs.readFileSync('./anishan/anime3.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/anishan/anime3.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Te amo botsito uwu`)) {
-        const none = fs.readFileSync('./anishan/anime2.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/anishan/anime2.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Onichan`)) {
-        const none = fs.readFileSync('./anishan/anime1.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/anishan/anime1.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Pasen sexo`)) {
-        const none = fs.readFileSync('./mp3/fernan.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/fernan.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Paraguayo`)) {
-        const none = fs.readFileSync('./mp3/gaspi11.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/gaspi11.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Venezolano`)) {
-        const none = fs.readFileSync('./mp3/gaspi10.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/gaspi10.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Gaspi corte`)) {
-        const none = fs.readFileSync('./mp3/gaspi12.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/gaspi12.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Gaspi buenos dias`)) {
-        const none = fs.readFileSync('./mp3/gaspi13.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/gaspi13.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Enano`)) {
-        const none = fs.readFileSync('./mp3/gaspi14.mp3');
+        const none = fs.readFileSync('https://github.com/shanduy/ShanBot/tree/main/mp3/gaspi14.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
 	if (budy.startsWith(`Buenas noches`)) {
