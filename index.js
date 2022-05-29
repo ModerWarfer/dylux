@@ -2216,26 +2216,26 @@ _*Ojito escribe tal y como esta en el mensaje*_
                   m.reply(`opaaaaa`)
                   }
                  
-		if (budy.includes(`Fua`)) {
+		if (budy.includes(`Fua`)) {zz
                   m.reply(`el diegote pa`)
                   }
 		
 		
 	if (budy.startsWith(`Pasen porno`)) {
         const none = fs.readFileSync('./mp3/maau2.mp3');
-		fg.sendMessage(from, vn, audio, {quoted: mek, ptt:true})
+	 vn = fg.sendMessage(from, vn, audio, {quoted: mek, ptt:true})
                   }			
 	if (budy.startsWith(`VAMOOO`)) {
         const none = fs.readFileSync('./mp3/vamo.mp3');
-		fg.sendMessage(from, vn, audio, {quoted: mek, ptt:true})
+	 vn = fg.sendMessage(from, vn, audio, {quoted: mek, ptt:true})
                   }
 	if (budy.startsWith(`Hora del sexito`)) {
         const none = fs.readFileSync('./mp3/maau1.mp3');
-		fg.sendMessage(from, vn, audio, {quoted: mek, ptt:true})
+	 vn = fg.sendMessage(from, vn, audio, {quoted: mek, ptt:true})
                   }
         if (budy.startsWith(`Cuentate un chiste`)) {
         const none = fs.readFileSync('./mp3/dylan2.mp3');
-		fg.sendMessage(from, vn, audio, {quoted: mek, ptt:true})
+	 vn = fg.sendMessage(from, vn, audio, {quoted: mek, ptt:true})
                   }
 	if (budy.startsWith(`Admin party`)) {
         const none = fs.readFileSync('./mp3/fiesta.mp3');
